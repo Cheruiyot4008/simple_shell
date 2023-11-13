@@ -2,6 +2,7 @@
 
 /**
  * interact - returns true if shell is interactive mode
+ * 
  * @info: struct address
  *
  * Return: 1 if interactive mode, 0 otherwise
@@ -13,8 +14,11 @@ int interact(info_t *info)
 
 /**
  * isDelim - checks if character is a Delimeter
+ * 
  * @c: the char to check
+ * 
  * @delim: the Delimeter string
+ * 
  * Return: 1 if true, 0 if false
  */
 int isDelim(char c, char *delim)
@@ -27,8 +31,10 @@ int isDelim(char c, char *delim)
 
 /**
  *isAlpha - checks for alphabetic character
- *@c: The character to input
- *Return: 1 if c is alphabetic, 0 otherwise
+ *
+ * @c: The character to input
+ *
+ * Return: 1 if c is alphabetic, 0 otherwise
  */
 
 int isAlpha(int c)
@@ -41,8 +47,10 @@ int isAlpha(int c)
 
 /**
  *_atoi - converts a string to an integer
- *@s: the string to be converted
- *Return: 0 if no numbers in string, converted number otherwise
+ *
+ * @s: the string to be converted
+ *
+ * Return: 0 if no numbers in string, converted number otherwise
  */
 
 int _atoi(char *s)
@@ -72,4 +80,3 @@ int _atoi(char *s)
 
 	return (output);
 }
-
