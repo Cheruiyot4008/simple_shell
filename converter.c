@@ -52,11 +52,11 @@ char **strSplit(char *str, char *d)
 }
 
 /**
- * **strSplit2 - splits a string into words
+ * **strSplit2 - Splits a string into words
  *
- * @str: the input string
+ * @str: The input string
  *
- * @d: the delimeter
+ * @d: The delimeter
  *
  * Return: a pointer to an array of strings, or NULL on failure
  */
