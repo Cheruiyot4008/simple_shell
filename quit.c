@@ -2,10 +2,14 @@
 
 /**
  **strnCpy - copies a string
- *@dest: the destination string to be copied to
- *@src: the source string
- *@n: the amount of characters to be copied
- *Return: the concatenated string
+ *
+ * @dest: the destination string to be copied to
+ *
+ * @src: the source string
+ *
+ * @n: the amount of characters to be copied
+ *
+ * Return: the concatenated string
  */
 char *strnCpy(char *dest, char *src, int n)
 {
@@ -32,10 +36,14 @@ char *strnCpy(char *dest, char *src, int n)
 
 /**
  **strnConcat - concatenates two strings
- *@dest: the first string
- *@src: the second string
- *@n: the amount of bytes to be maximally used
- *Return: the concatenated string
+ *
+ * @dest: the first string
+ *
+ * @src: the second string
+ *
+ * @n: the amount of bytes to be maximally used
+ *
+ * Return: the concatenated string
  */
 char *strnConcat(char *dest, char *src, int n)
 {
@@ -59,9 +67,12 @@ char *strnConcat(char *dest, char *src, int n)
 
 /**
  **strChr - locates a character in a string
- *@s: the string to be parsed
- *@c: the character to look for
- *Return: (s) a pointer to the memory area s
+ *
+ * @s: the string to be parsed
+ *
+ * @c: the character to look for
+ *
+ * Return: (s) a pointer to the memory area s
  */
 char *strChr(char *s, char c)
 {
