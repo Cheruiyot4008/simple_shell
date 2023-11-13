@@ -2,6 +2,7 @@
 
 /**
  * fetchHist - gets the history file
+ * 
  * @info: parameter struct
  *
  * Return: allocated string containg history file
@@ -26,6 +27,7 @@ char *fetchHist(info_t *info)
 
 /**
  * crepend - creates a file, or appends to an existing file
+ * 
  * @info: the parameter struct
  *
  * Return: 1 on success, else -1
@@ -55,6 +57,7 @@ int crepend(info_t *info)
 
 /**
  * histRec - reads history from file
+ * 
  * @info: the parameter struct
  *
  * Return: histcount on success, 0 otherwise
@@ -104,8 +107,11 @@ int histRec(info_t *info)
 
 /**
  * buildLlist - adds entry to a history linked list
+ * 
  * @info: Structure containing potential arguments. Used to maintain
+ * 
  * @buf: buffer
+ * 
  * @linecount: the history linecount, histcount
  *
  * Return: Always 0
@@ -125,6 +131,7 @@ int buildLlist(info_t *info, char *buf, int linecount)
 
 /**
  * updateLlistNum - renumbers the history linked list after changes
+ * 
  * @info: Structure containing potential arguments. Used to maintain
  *
  * Return: the new histcount
