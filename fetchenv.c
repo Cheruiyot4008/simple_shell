@@ -65,9 +65,9 @@ return (info->env_changed);
 *
 * constant function prototype.
 *
-* @var: the string env var property
+* @var: The string env var property
 *
-* @value: the string env var value
+* @value: The string env var value
 *
 * Return: Always 0
 */
