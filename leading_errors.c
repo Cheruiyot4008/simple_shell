@@ -68,13 +68,13 @@
 	return (1);
 	}
 /**
- * _putsfd - prints an input string
+ * _putsfd - Prints an input string
  *
- * @str: the string to be printed
+ * @str: The string to be printed
  *
- * @fd: the file descriptor to write to
+ * @fd: The file descriptor to write to
  *
- * Return: the number of characters put
+ * Return: The number of characters put
  */
 	int _putsfd(char *str, int fd)
 	{
