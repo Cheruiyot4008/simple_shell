@@ -48,11 +48,11 @@ void infoInit(info_t *info, char **av)
 }
 
 /**
- * freeSF - frees info_t struct fields
+ * freeSF - Frees info_t struct fields
  *
- * @info: struct address
+ * @info: Struct address
  *
- * @all: true if freeing all fields
+ * @all: True if freeing all fields
  */
 void freeSF(info_t *info, int all)
 {
