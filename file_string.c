@@ -49,13 +49,13 @@ char *strDup(const char *str)
 }
 
 /**
- *_strPuts - prints an input string
+ *_strPuts - Prints an input string
  *
- * @str: the string to be printed
+ * @str: The string to be printed
  *
  * Return: Nothing
  */
-void strPuts(char *str)
+void _strPuts(char *str)
 {
 	int i = 0;
 
@@ -69,7 +69,7 @@ void strPuts(char *str)
 }
 
 /**
- * putChar - writes the character c to stdout
+ * putChar - Writes the character c to stdout
  *
  * @c: The character to print
  *
