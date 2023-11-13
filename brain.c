@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * freeNullPtr - frees a pointer and NULLs the address
+ * freeNullPtr -Frees a pointer and NULLs the address
  *
- * @ptr: address of the pointer to free
+ * @ptr: Address of the pointer to free
  *
  * Return: 1 if freed, otherwise 0.
  */
