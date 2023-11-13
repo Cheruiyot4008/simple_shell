@@ -49,13 +49,13 @@ char *strDup(const char *str)
 }
 
 /**
- *_strPuts - Prints an input string
+ *strPuts - Prints an input string
  *
  * @str: The string to be printed
  *
  * Return: Nothing
  */
-void _strPuts(char *str)
+void strPuts(char *str)
 {
 	int i = 0;
 
