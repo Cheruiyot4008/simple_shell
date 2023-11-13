@@ -32,7 +32,7 @@ int shellExit(info_t *info)
 }
 
 /**
- * cdChange - changes the current directory of the process
+ * cdChange - Changes the current directory of the process
  *
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
@@ -83,7 +83,7 @@ int cdChange(info_t *info)
 }
 
 /**
- * proCdCh - changes the current directory of the process
+ * proCdCh - Changes the current directory of the process
  *
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
