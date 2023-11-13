@@ -132,9 +132,9 @@ char *numConverter(long int num, int base, int flags)
 }
 
 /**
- * clrComments - function replaces first instance of '#' with '\0'
+ * clrComments - Function replaces first instance of '#' with '\0'
  *
- * @buf: address of the string to modify
+ * @buf:Address of the string to modify
  *
  * Return: Always 0;
  */
